@@ -71,4 +71,7 @@
   <ItemGroup>
     <RefactorLog Include="ColinsDinerDB.refactorlog" />
   </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Scripts\Script.PostDeployment.sql" />
+  </ItemGroup>
 </Project>
