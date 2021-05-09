@@ -3,7 +3,7 @@
 AS
 begin
 	select 
-	[Id], [OrderName], [OrderDate], [FoodId], [Qauntity], [Total ] 
+	[Id], [OrderName], [OrderDate], [FoodId], [Quantity], [Total] 
 	from dbo.[Order]
 	where Id = @id;
 end
