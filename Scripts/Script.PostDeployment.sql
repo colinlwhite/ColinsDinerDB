@@ -15,5 +15,6 @@ begin
 insert into dbo.Food(Title, [Description], Price)
 values ('All Meat Pizza','Bacon and Pepperoni Pizza', 3.99),
 ('Alabama Slammer Sandwich','unlimited white sauce included', 10.99),
-('12 Wings & Fries','unlimited ranch sauces included', 4.99);
+('12 Wings & Fries','unlimited ranch sauces included', 4.99),
+('The Gladiator', 'A great combination of pepperoni, sausage, and mozzarella.', 7.86)
 end
